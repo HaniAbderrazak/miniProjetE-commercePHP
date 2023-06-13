@@ -1,0 +1,8 @@
+   <?php
+                  include "../Controllers/GestionUsers.php";
+                  include "../Connection/BD.php";
+
+                  $gs=new GestionUsers();
+
+  $tab1=$gs->RecupererUserParName("Hani");
+  ?>

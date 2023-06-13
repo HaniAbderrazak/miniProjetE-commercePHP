@@ -1,0 +1,10 @@
+  <?php
+                  include "../Controllers/GestionUsers.php";
+                  include "../Connection/BD.php";
+
+                  $gs=new GestionUsers();
+                  $tab=array();
+                  $tab=$gs->RecupererUsers();
+                  $n=count($tab);
+
+  ?>
